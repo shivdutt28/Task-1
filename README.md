@@ -43,20 +43,18 @@ Learn to discover open ports on devices in your local network to understand your
 
    * Capture network traffic during the scan and inspect SYN/ACK responses for more detail.
 
-6. **Research Common Services**
 
-   * Use resources like [Exploit-DB](https://www.exploit-db.com/) or [Shodan](https://www.shodan.io/) to understand what services run on the open ports (e.g., 22 = SSH, 80 = HTTP).
 
-7. **Identify Potential Security Risks**
+6. **Identify Potential Security Risks**
 
    * Look for unnecessary open ports or outdated services that may pose vulnerabilities.
 
-8. **Save Scan Results**
+7. **Save Scan Results**
 
    * As text:
 
      ```bash
-     nmap -sS 192.168.182.134/24 -oN scan_results.txt
+     nmap -sS 192.168.182.134/24 -oN scan.txt
      ```
    
 
